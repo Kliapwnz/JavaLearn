@@ -20,4 +20,9 @@ function info() {
     console.log("Привет")
     console.log("!")
 }
+function summ(a, b) {
+    let res = a + b;
+    console.log(res)
+}
+summ(8, 12)
 info();
