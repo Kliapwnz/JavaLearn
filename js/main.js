@@ -6,3 +6,6 @@ console.log(num);
 
 const name = "Evgeniy";
 console.log(name)
+
+num = 88;
+console.log(num);
