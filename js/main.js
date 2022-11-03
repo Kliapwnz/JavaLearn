@@ -35,4 +35,8 @@ function kliapwnz(arr) {
     console.log(klia)
 }
 let array = [6, 8, 1]
+let array_2 = [6, 8, 12]
+let array_3 = [6, 8, 31]
 kliapwnz(array)
+kliapwnz(array_2)
+kliapwnz(array_3)
