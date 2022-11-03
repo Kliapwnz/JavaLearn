@@ -16,13 +16,13 @@ let res = num_1 + num_2
 console.log("Сложение: " + res)
 console.log("Вычитание: " + (num_2 - num_1))
 
-function info() {
-    console.log("Привет")
-    console.log("!")
+function info(word) {
+    console.log(word + "!")
 }
-function summ(a, b) {
+
+function summa(a, b) {
     let res = a + b;
-    console.log(res)
+    info(res);
 }
-summ(8, 12)
-info();
+
+summa(8, 12);
