@@ -26,3 +26,13 @@ function summa(a, b) {
 }
 
 summa(8, 12);
+
+function kliapwnz(arr) {
+    let klia = 0;
+    for (let i = 0; i < arr.length; i++)
+        klia += arr[i];
+
+    console.log(klia)
+}
+let array = [6, 8, 1]
+kliapwnz(array)
